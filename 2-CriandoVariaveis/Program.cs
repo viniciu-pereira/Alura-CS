@@ -22,5 +22,12 @@ class Variaveis
         //string type is used to store a phare value between double quotes
         string frase = "Just a test frase";
 
+        string lista = @"Lingugens:
+        -GO
+        -C#
+        -Python
+        -Java";
+
+        Console.WriteLine($"São: {lista}");
     }
 }
